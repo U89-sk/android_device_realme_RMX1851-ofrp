@@ -73,10 +73,10 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
     export FOX_USE_LZMA_COMPRESSION=1
     
     # Screen Settings
-	export OF_STATUS_INDENT_LEFT=48
-	export OF_STATUS_INDENT_RIGHT=48
-  	export OF_HIDE_NOTCH=1
-	export OF_CLOCK_POS=1
+    export OF_STATUS_INDENT_LEFT=48
+    export OF_STATUS_INDENT_RIGHT=48
+    export OF_HIDE_NOTCH=1
+    export OF_CLOCK_POS=1
     
     export OF_MAINTAINER="U89-sk"
     export FOX_VERSION="R11.1_6"
