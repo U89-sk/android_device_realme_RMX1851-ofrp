@@ -84,10 +84,6 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
     export FOX_VARIANT=A13
     export OF_TARGET_EVICE="RMX1851"
     
-    export USE_CCACHE="1" 
-    export CCACHE_DIR=/mnt/d/wsl/.ccach
-    ccache -M 20G
-    
     # lzma
     [ "$FOX_USE_LZMA_COMPRESSION" = "1" ] && export LZMA_RAMDISK_TARGETS="recovery"
 	
