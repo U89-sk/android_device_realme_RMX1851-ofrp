@@ -41,7 +41,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
     export LC_ALL="C"
     export OF_DISABLE_MIUI_SPECIFIC_FEATURES=1
     export OF_NO_SAMSUNG_SPECIAL=1
-    export OF_AB_DEVICE=1
+    export TARGET_ARCH=arm64
     export OF_USE_MAGISKBOOT=1
     export OF_USE_MAGISKBOOT_FOR_ALL_PATCHES=1
     export OF_DONT_PATCH_ENCRYPTED_DEVICE=1
@@ -73,8 +73,6 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
     export FOX_USE_LZMA_COMPRESSION=1
     
     # Screen Settings
-    export OF_STATUS_INDENT_LEFT=48
-    export OF_STATUS_INDENT_RIGHT=48
     export OF_HIDE_NOTCH=1
     export OF_CLOCK_POS=1
     
